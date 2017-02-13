@@ -31,7 +31,7 @@ try:
 	key = key.replace(" ","")
 
 	# Assemble the URL
-	assembled_url = "curl -XPUT " + RIAK_HOST + "/types/players/bucket/nba/keys/" + key + " -H 'Content-Type: application/json' -d '" + json_string + "'" 
+	assembled_url = "curl -XPUT " + RIAK_HOST + "/types/nba_players/buckets/players/keys/" + key + " -H 'Content-Type: application/json' -d '" + json_string + "'" 
 	print assembled_url
 
 	# Run the curl here
