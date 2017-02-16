@@ -5,7 +5,8 @@ This dataset includes all players for all teams in the NBA in the year 2017.
 # Pre-requisites
 
 - You need to have Python installed
-- You need to have the Python CSV moduled (normally installed by default along with Python)
+- You need to have the Python CSV module (normally installed by default along with Python)
+- You need to turn on search in `riak.conf`
 - Edit nba.py to reflect your Riak host and its correspinding HTTP port
 - Obviously, the RIAK_HOST value should reflect your corresponding Riak host and its HTTP port
 
